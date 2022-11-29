@@ -1,0 +1,44 @@
+{
+  "name": "@golms/prettier-config",
+  "version": "0.0.1",
+  "description": "Prettier config used at SimonGolms",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SimonGolms/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimonGolms/prettier-config/issues"
+  },
+  "keywords": [
+    "configuration",
+    "prettier",
+    "prettierrc",
+    "prettier-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Simon Golms",
+    "email": "development@gol.ms",
+    "url": "https://gol.ms"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'",
+    "prepare": "husky install && chmod ug+x .husky/*",
+    "release": "dotenv -- semantic-release --no-ci",
+    "release:ci": "semantic-release",
+    "repair": "rimraf .git/hooks node_modules package-lock.json && npm install",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "dotenv-cli": "6.0.0",
+    "husky": "8.0.2",
+    "rimraf": "3.0.2",
+    "semantic-release": "19.0.5"
+  }
+}
