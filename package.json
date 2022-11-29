@@ -26,7 +26,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "postpublish": "npm publish --ignore-scripts --@github:registry='https://npm.pkg.github.com'",
     "prepare": "husky install && chmod ug+x .husky/*",
     "release": "dotenv -- semantic-release --no-ci",
     "release:ci": "semantic-release",
@@ -34,7 +33,7 @@
     "test": "node --test"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/changelog": "6.0.2",
     "@semantic-release/git": "10.0.1",
     "dotenv-cli": "6.0.0",
     "husky": "8.0.2",

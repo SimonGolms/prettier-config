@@ -3,7 +3,6 @@
 Prettier config used at SimonGolms
 
 ![npm version](https://img.shields.io/npm/v/@golms/prettier-config?label=npm%20Version&logo=npm)
-![GitHub version](https://img.shields.io/github/package-json/v/SimonGolms/prettier-config?label=Github%20Version&logo=github)
 [![License: Apache-2.0](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/simongolms/prettier-config/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/simongolms/prettier-config/graphs/commit-activity)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-green.svg?logo=conventional-commits)](https://conventionalcommits.org)
@@ -70,14 +69,6 @@ Make sure that the environment variables `GITHUB_TOKEN` and `NPM_TOKEN` are set 
 npm run release
 ```
 
-## Author
-
-**Simon Golms**
-
-- Digital Card: `npx simongolms`
-- Github: [@golms](https://github.com/SimonGolms)
-- Website: [gol.ms](https://gol.ms)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
@@ -85,7 +76,7 @@ Give a ⭐️ if this project helped you!
 ## License
 
 Copyright © 2022 [Simon Golms](https://github.com/simongolms).<br />
-This project is [MIT](https://github.com/simongolms/homekit-code/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/simongolms/prettier-config/blob/master/LICENSE) licensed.
 
 ## Resources
 
