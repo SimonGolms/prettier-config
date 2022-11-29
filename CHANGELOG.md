@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/SimonGolms/prettier-config/compare/v1.0.0...v1.1.0) (2022-11-29)
+
+
+### Features
+
+* use NODE_AUTH_TOKEN ([e24a7fe](https://github.com/SimonGolms/prettier-config/commit/e24a7feb3915617efc86c0f625fef506057c0a36))
+
 # 1.0.0 (2022-11-29)
 
 
