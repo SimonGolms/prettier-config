@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/SimonGolms/prettier-config/compare/v1.1.0...v1.2.0) (2022-11-29)
+
+
+### Features
+
+* use NPM_TOKEN ([357fdaa](https://github.com/SimonGolms/prettier-config/commit/357fdaa876f7b32c923217b71f8bf140371b7f19))
+
 # [1.1.0](https://github.com/SimonGolms/prettier-config/compare/v1.0.0...v1.1.0) (2022-11-29)
 
 
